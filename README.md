@@ -7,23 +7,23 @@ Welcome to the Ultimate CS Notes - your comprehensive guide to computer science 
 ### Programming Languages
 
 * [Python](programming-languages/python/) - Versatile language for web development, data science, and automation
-* [Java](languages/java/) - Enterprise-level programming with strong OOP principles
-* [JavaScript](languages/javascript/) - The language of the web
-* [TypeScript](languages/typescript/) - Typed superset of JavaScript
-* [HTML & CSS](languages/html-css/) - Web markup and styling
-* [Swift](languages/swift/) - Apple's modern programming language
+* [Java](programming-languages/java.md) - Enterprise-level programming with strong OOP principles
+* [JavaScript](programming-languages/javascript.md) - The language of the web
+* [TypeScript](programming-languages/typescript.md) - Typed superset of JavaScript
+* [HTML & CSS](programming-languages/html-css.md) - Web markup and styling
+* [Swift](programming-languages/swift.md) - Apple's modern programming language
 
 ### Backend Development
 
-* [Django](backend/django/) - High-level Python web framework
-* [Node.js](backend/nodejs/) - JavaScript runtime for server-side development
+* [Django](backend-development/django.md) - High-level Python web framework
+* [Node.js](backend-development/nodejs.md) - JavaScript runtime for server-side development
 * [Flask](backend-development/flask/) - Lightweight Python web framework
 
 ### Frontend Development
 
-* [Swift UI](frontend/swiftui/) - Modern UI framework for Apple platforms
-* [React Native (Expo)](frontend/react-native-expo/) - Cross-platform mobile development made easy
-* [React Native (CLI)](frontend/react-native-cli/) - Full control over your React Native projects
+* [Swift UI](frontend-development/swiftui.md) - Modern UI framework for Apple platforms
+* [React Native (Expo)](frontend-development/react-native-expo.md) - Cross-platform mobile development made easy
+* [React Native (CLI)](frontend-development/react-native-cli.md) - Full control over your React Native projects
 
 ### Databases
 
@@ -33,8 +33,8 @@ Welcome to the Ultimate CS Notes - your comprehensive guide to computer science 
 
 ### Development Tools
 
-* [Git](tools/git/) - Version control system
-* [LeetCode Solutions](leetcode/) - Algorithm and data structure practice
+* [Git](development-tools/git.md) - Version control system
+* [LeetCode Solutions](development-tools/leetcode-solutions) - Algorithm and data structure practice
 
 ## 🚀 How to Use This Guide
 
