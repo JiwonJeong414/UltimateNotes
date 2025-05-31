@@ -17,7 +17,7 @@ Welcome to the Ultimate CS Notes - your comprehensive guide to computer science 
 
 * [Django](backend/django/) - High-level Python web framework
 * [Node.js](backend/nodejs/) - JavaScript runtime for server-side development
-* [Flask](backend/flask/) - Lightweight Python web framework
+* [Flask](backend-development/flask/) - Lightweight Python web framework
 
 ### Frontend Development
 
