@@ -8,7 +8,7 @@ Welcome to the Ultimate CS Notes - your comprehensive guide to computer science 
 
 * [Python](programming-languages/python/) - Versatile language for web development, data science, and automation
 * [Java](programming-languages/java.md) - Enterprise-level programming with strong OOP principles
-* [JavaScript](programming-languages/javascript.md) - The language of the web
+* [JavaScript](programming-languages/javascript/) - The language of the web
 * [TypeScript](programming-languages/typescript.md) - Typed superset of JavaScript
 * [HTML & CSS](programming-languages/html-css.md) - Web markup and styling
 * [Swift](programming-languages/swift.md) - Apple's modern programming language
@@ -34,7 +34,7 @@ Welcome to the Ultimate CS Notes - your comprehensive guide to computer science 
 ### Development Tools
 
 * [Git](development-tools/git.md) - Version control system
-* [LeetCode Solutions](development-tools/leetcode-solutions) - Algorithm and data structure practice
+* [LeetCode Solutions](development-tools/leetcode-solutions/) - Algorithm and data structure practice
 
 ## 🚀 How to Use This Guide
 
