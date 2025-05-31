@@ -1,12 +1,24 @@
 # JavaScript Functions
 
+A function is basically a set of statements that performs a task or calculates a value
+
+```javascript
+greet('Jiwon');
+
+function greet(name) {
+    console.log('Hello ' + name);
+}
+
+// Hello Jiwon
+```
+
 ## Function Declarations vs Function Expressions
 
 ```javascript
 // Function Declaration
 walk(); // 'walk'
 
-function walk() {
+function walk(){
     console.log('walk');
 }
 
@@ -24,7 +36,7 @@ let run = function() {
 
 ## Arguments
 
-In JavaScript, since the language is dynamic, we can pass any # of parameters in to a function even though that function may only take for example 2 parameters.
+In JavaScript, since the language is dynamic, we can pass any # of parameters in to a function even though that function may only take for example 2 parameters. Take the sum function below:
 
 ```javascript
 function sum(a, b) {
@@ -35,7 +47,7 @@ console.log(sum(1)); // this will print NaN or not a number b/c the second param
 console.log(sum(1, 2, 3)); // this will print 3
 ```
 
-If we want to use every parameter in our called code, we have to use the arguments object:
+If we want to use every parameter in our called code, we have to use the arguments object.
 
 ```javascript
 function sum() {
@@ -50,20 +62,20 @@ console.log(sum(1, 2, 3, 4, 5, 10)); // 25
 
 ## Rest Operator
 
-We can simplify the above code by using the rest operator:
+We can simplify the above code by using the rest operator.
 
 ```javascript
 function sum(...args) { 
     console.log(args); // the rest operator will get all the operators and put them in an array
-    return args.reduce((a,b) => a + b); // getting the sum
+    args.reduce((a,b) => a + b); // getting the sum
 }
 
 console.log(sum(1, 2, 3, 4, 5, 10));
 ```
 
-## Default Parameters
+## Default Value
 
-Starting from ES6, we have a cleaner way to initialize default values:
+Starting from ES6, we have a cleaner way to initialize default values
 
 ```javascript
 function interest(principal, rate = 3.5, years = 5) {
@@ -75,15 +87,15 @@ console.log(interest(10000)); // 1750
 
 ## Getters & Setters
 
-We use getters to access properties and setters to change or mutate the properties:
+We use getters to access properties and setters to change or mutate the properties
 
 ```javascript
 const person = {
     firstName: 'Mosh',
     lastName: 'Hamedani',
     get fullName() {
-        return `${person.firstName} ${person.lastName}`;
-    },
+        return '${person.firstName} $person.lastName}';
+    }
     set fullName(value) {
         const parts = value.split(' ');
         this.firstName = parts[0];
@@ -94,25 +106,30 @@ const person = {
 person.fullName = 'John Smith';
 ```
 
+## 'this' keyword
+
+this is a reference to the object that is executing the piece of code
+
+by alone, this references to an empty object
+
 ## Arrow Functions
 
-Arrow functions provide a more concise syntax for writing function expressions:
+Arrow functions are a more concise syntax for writing function expressions. They are best suited for non-method functions, and they cannot be used as constructors.
 
 ```javascript
 // Traditional function
-const add = function(a, b) {
-    return a + b;
-};
+const numbers = [1, 2, 3];
+const doubled = numbers.map(function(number) {
+    return number * 2;
+});
 
 // Arrow function
-const add = (a, b) => a + b;
-
-// With multiple lines
-const add = (a, b) => {
-    const sum = a + b;
-    return sum;
-};
+const doubled = numbers.map(number => number * 2);
 ```
+
+<aside>
+💡 Arrow functions don't have their own 'this' binding. Instead, they inherit 'this' from the enclosing scope.
+</aside>
 
 ## Function Best Practices
 

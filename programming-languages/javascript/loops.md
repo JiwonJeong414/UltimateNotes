@@ -97,4 +97,99 @@ for (let key in person) {
 Object.entries(person).forEach(([key, value]) => {
     console.log(`${key}: ${value}`);
 });
-``` 
+```
+
+## Do...while Loop
+
+The do...while loop is very useful when you want to execute statements at least once.
+
+```javascript
+let i = 9;
+do {
+    if (i % 2 !== 0) console.log(i);
+    i++;
+} while (i <= 5);
+```
+
+## For...in Loop
+
+The for...in loop is used to loop through the properties of an object.
+
+```javascript
+const person = {
+    name: 'Jiwon',
+    age: 16
+};
+
+for (let key in person)
+    console.log(key, person[key]);
+// name Jiwon
+// age 16
+```
+
+## For...of Loop
+
+The for...of loop is the ideal way to iterate over an array.
+
+```javascript
+const colors = ['red', 'green', 'blue'];
+
+for (let color of colors)
+    console.log(color);
+
+// red
+// green
+// blue
+```
+
+## Traditional For Loop
+
+```javascript
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+```
+
+## While Loop
+
+```javascript
+let i = 0;
+while (i < 5) {
+    console.log(i);
+    i++;
+}
+```
+
+## Loop Control Statements
+
+### break
+The break statement is used to exit a loop early.
+
+```javascript
+for (let i = 0; i < 5; i++) {
+    if (i === 3) break;
+    console.log(i);
+}
+// Output: 0, 1, 2
+```
+
+### continue
+The continue statement is used to skip the current iteration and continue with the next one.
+
+```javascript
+for (let i = 0; i < 5; i++) {
+    if (i === 3) continue;
+    console.log(i);
+}
+// Output: 0, 1, 2, 4
+```
+
+## Loop Best Practices
+
+1. Use for...of for arrays
+2. Use for...in for objects
+3. Use while when you don't know the number of iterations
+4. Use do...while when you want to execute at least once
+5. Use break and continue carefully
+6. Avoid infinite loops
+7. Use meaningful variable names for loop counters 
