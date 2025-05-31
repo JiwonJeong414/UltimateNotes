@@ -4,20 +4,20 @@ Welcome to the Python programming section! This guide covers everything from bas
 
 ## 📚 Table of Contents
 
-1. [Variables and Basic Concepts](../../languages/python/01_variables.md)
-2. [Input and Output](../../languages/python/02_input.md)
-3. [Control Flow](../../languages/python/03_ifforwhile.md)
-4. [Mathematics and Numbers](../../languages/python/04_math.md)
-5. [Arrays and Lists](../../languages/python/05_arrays.md)
-6. [Sorting and List Operations](../../languages/python/06_sorting.md)
-7. [Strings and Text Processing](../../languages/python/07_strings.md)
-8. [Queues and Collections](../../languages/python/08_queue.md)
-9. [Sets and HashSets](../../languages/python/09_HashSet.md)
-10. [Dictionaries and HashMaps](../../languages/python/10_HashMap.md)
-11. [Tuples and Immutable Data](../../languages/python/11_Tuples.md)
-12. [Heaps and Priority Queues](../../languages/python/12_Heaps.md)
-13. [Functions and Scope](../../languages/python/13_functions.md)
-14. [Classes and OOP](../../languages/python/14_classes.md)
+1. [Variables and Basic Concepts](../../languages/python/variables.md)
+2. [Input and Output](../../languages/python/input.md)
+3. [Control Flow](../../languages/python/if-for-while.md)
+4. [Mathematics and Numbers](../../languages/python/math.md)
+5. [Arrays and Lists](../../languages/python/arrays.md)
+6. [Sorting and List Operations](../../languages/python/sorting.md)
+7. [Strings and Text Processing](../../languages/python/strings.md)
+8. [Queues and Collections](../../languages/python/queue.md)
+9. [Sets and HashSets](../../languages/python/hashset.md)
+10. [Dictionaries and HashMaps](../../languages/python/hashmap.md)
+11. [Tuples and Immutable Data](../../languages/python/tuples.md)
+12. [Heaps and Priority Queues](../../languages/python/heaps.md)
+13. [Functions and Scope](../../languages/python/functions.md)
+14. [Classes and OOP](../../languages/python/classes.md)
 
 ## 🎯 Learning Path
 
