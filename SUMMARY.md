@@ -18,6 +18,7 @@
   * [Tuples](programming-languages/python/tuples.md)
   * [Heaps](programming-languages/python/heaps.md)
   * [Functions](programming-languages/python/functions.md)
+  * [Classes](programming-languages/python/classes.md)
 * [Java](programming-languages/java.md)
 * [JavaScript](programming-languages/javascript.md)
 * [TypeScript](programming-languages/typescript.md)
