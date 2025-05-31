@@ -19,21 +19,6 @@ Welcome to the Python programming section! This guide covers everything from bas
 13. [Functions and Scope](../../programming-languages/python/functions.md)
 14. [Classes and OOP](../../programming-languages/python/classes.md)
 
-## 🎯 Learning Path
-
-1. Start with Variables and Basic Concepts to understand Python's fundamentals
-2. Move through Input/Output and Control Flow to build basic programs
-3. Learn about data structures (Arrays, Strings, Sets, etc.)
-4. Master advanced concepts like Functions and Classes
-
-## 💡 Key Features
-
-* Clear explanations with practical examples
-* Code snippets with detailed comments
-* Best practices and common pitfalls
-* Performance considerations
-* Real-world applications
-
 ## 🚀 Getting Started
 
 To get started with Python:
