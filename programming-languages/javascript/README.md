@@ -4,20 +4,13 @@ Welcome to the JavaScript programming section! This guide covers everything from
 
 ## 📚 Table of Contents
 
-1. [Variables and Basic Concepts](../../programming-languages/javascript/variables.md)
-2. [Functions and Scope](../../programming-languages/javascript/functions.md)
-3. [Objects and OOP](../../programming-languages/javascript/objects.md)
-4. [Arrays and Collections](../../programming-languages/javascript/arrays.md)
-5. [Loops and Control Flow](../../programming-languages/javascript/loops.md)
-6. [Modules and Imports](../../programming-languages/javascript/modules.md)
-7. [Testing and Jest](../../programming-languages/javascript/testing.md)
-8. [DOM Manipulation](../../programming-languages/javascript/dom.md)
-9. [Async Programming](../../programming-languages/javascript/async.md)
-10. [Error Handling](../../programming-languages/javascript/errors.md)
-11. [Regular Expressions](../../programming-languages/javascript/regex.md)
-12. [Modern JavaScript (ES6+)](../../programming-languages/javascript/es6.md)
-13. [TypeScript Basics](../../programming-languages/javascript/typescript.md)
-14. [Best Practices](../../programming-languages/javascript/best-practices.md)
+1. [Fundamentals and Basic Syntax](../../programming-languages/javascript/fundamentals/basics.md)
+2. [Functions and Scope](../../programming-languages/javascript/functions/functions.md)
+3. [Objects and OOP](../../programming-languages/javascript/objects/objects.md)
+4. [Arrays and Collections](../../programming-languages/javascript/arrays/arrays.md)
+5. [Loops and Control Flow](../../programming-languages/javascript/loops/loops.md)
+6. [Modules and Imports](../../programming-languages/javascript/modules/modules.md)
+7. [Testing with Jest](../../programming-languages/javascript/testing/jest-testing.md)
 
 ## 🚀 Getting Started
 
