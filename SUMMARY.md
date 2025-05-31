@@ -1,30 +1,36 @@
-# Summary
+# Table of contents
 
 * [Introduction](README.md)
 
 ## Programming Languages
-* [Python](languages/python/README.md)
-* [Java](languages/java/README.md)
-* [JavaScript](languages/javascript/README.md)
-* [TypeScript](languages/typescript/README.md)
-* [HTML & CSS](languages/html-css/README.md)
-* [Swift](languages/swift/README.md)
+
+* [Python](programming-languages/python/README.md)
+  * [Subpage](programming-languages/python/subpage.md)
+* [Java](programming-languages/java.md)
+* [JavaScript](programming-languages/javascript.md)
+* [TypeScript](programming-languages/typescript.md)
+* [HTML & CSS](programming-languages/html-and-css.md)
+* [Swift](programming-languages/swift.md)
 
 ## Backend Development
-* [Django](backend/django/README.md)
-* [Node.js](backend/nodejs/README.md)
+
+* [Django](backend-development/django.md)
+* [Node.js](backend-development/node.js.md)
 * [Flask](backend/flask/README.md)
 
 ## Frontend Development
-* [Swift UI](frontend/swiftui/README.md)
-* [React Native (Expo)](frontend/react-native-expo/README.md)
-* [React Native (CLI)](frontend/react-native-cli/README.md)
+
+* [Swift UI](frontend-development/swift-ui.md)
+* [React Native (Expo)](frontend-development/react-native-expo.md)
+* [React Native (CLI)](frontend-development/react-native-cli.md)
 
 ## Databases
-* [MongoDB](databases/mongodb/README.md)
-* [PostgreSQL](databases/postgresql/README.md)
-* [AWS](databases/aws/README.md)
+
+* [MongoDB](databases/mongodb.md)
+* [PostgreSQL](databases/postgresql.md)
+* [AWS](databases/aws.md)
 
 ## Development Tools
-* [Git](tools/git/README.md)
-* [LeetCode Solutions](leetcode/README.md)
+
+* [Git](development-tools/git.md)
+* [LeetCode Solutions](development-tools/leetcode-solutions.md)
