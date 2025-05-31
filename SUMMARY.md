@@ -57,6 +57,7 @@
 
 ## Development Tools
 
-* [Git](development-tools/git.md)
 * [LeetCode Solutions](development-tools/leetcode-solutions/README.md)
   * [Arrays & Hashing](development-tools/leetcode-solutions/arrays-and-hashing.md)
+  * [Two Pointers](development-tools/leetcode-solutions/two-pointers.md)
+* [Git](development-tools/git.md)
