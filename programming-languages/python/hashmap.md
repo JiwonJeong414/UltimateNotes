@@ -4,6 +4,13 @@ Dictionaries in Python are mutable, unordered collections of key-value pairs. Th
 
 ## Basic Dictionary Operations
 
+get or default
+
+```python
+# Create HashMap
+hashMap[s[i]] = hashMap.get(s[i], 0) + 1
+```
+
 ```python
 # Create a dictionary
 myMap = {}
